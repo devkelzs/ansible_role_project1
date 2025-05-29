@@ -65,9 +65,9 @@ ini
     state: restarted 
 
 ## 🧰 Requirements
-Python 3.x
-Ansible 2.9+
-A remote Linux server (Ubuntu/Debian recommended)
+Python 3.x,
+Ansible 2.9+,
+A remote Linux server (Ubuntu/Debian recommended),
 SSH key-based authentication set up
 
 ## 🧼 Cleanup (Optional)
