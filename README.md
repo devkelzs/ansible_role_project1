@@ -59,10 +59,10 @@ ini
 🔁 Handler Example (roles/nginx/handlers/main.yml)
 
 
-```- name: Restart Nginx
+- name: Restart Nginx
   service:
     name: nginx
-    state: restarted ``` 
+    state: restarted 
 🧰 Requirements
 Python 3.x
 
@@ -75,4 +75,4 @@ SSH key-based authentication set up
 ## 🧼 Cleanup (Optional)
 To remove Nginx from the server:
 
-```ansible webservers -i inventory.ini -m apt -a "name=nginx state=absent" --become```
+ansible webservers -i inventory.ini -m apt -a "name=nginx state=absent" --become
