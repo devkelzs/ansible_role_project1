@@ -24,7 +24,7 @@ Ensure your SSH private key can access your server and is not password protected
 
 ```chmod 400 ~/.ssh/your-key.pem```
 
-3. Edit inventory.ini
+## 3. Edit inventory.ini
 Update with your server's IP and SSH username:
 
 ini
